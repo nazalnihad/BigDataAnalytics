@@ -42,7 +42,7 @@ input<-mtcars[,c('mpg','cyl')]
 boxplot(mpg~cyl,data=mtcars,xlab="Num cylinder",ylab="miles per gal",main="mileage",col="lightblue")
 
 
-
+ 
 
 
 
