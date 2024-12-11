@@ -12,8 +12,9 @@ plot(mtcars$disp, mtcars$wt,
 
 lines(loess.smooth(mtcars$disp, mtcars$wt), col = "black", lwd = 2)
 
-legend("topright", 
-       legend = paste("Carburetors:", unique(mtcars$carb)),
+legend("topleft", 
+       legend = paste(unique(mtcars$carb)),
        col = colors, 
        pch = 19, 
+       horiz=TRUE,
        title = "Number of Carburetors")

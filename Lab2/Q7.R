@@ -1,7 +1,7 @@
 library(ggplot2)
 library(dplyr)
 
-data <- read.csv("C:/Users/shiya/Downloads/archive/time-series-19-covid-combined.csv")
+data <- read.csv("D:/sem5/R/Lab2/time-series-19-covid-combined.csv")
 
 head(data)
 
